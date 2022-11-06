@@ -557,6 +557,17 @@ header .hero-text {
   flex-basis: 48%;
 }
 
+#faq {
+  padding: 5em;
+}
+#faq .accordion-button {
+  background: linear-gradient(to right, #a14636, rgb(25, 177, 191));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
 footer .row {
   display: flex;
   flex-direction: column;

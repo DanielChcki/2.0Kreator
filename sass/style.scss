@@ -553,7 +553,9 @@ header {
 }
 
 #faq {
+
 	padding: 5em;
+	
 
 	.accordion-button {
 		background: linear-gradient(to right, $second-colordarker, $main-color);
@@ -562,9 +564,7 @@ header {
 		font-size: 1.6rem;
 		font-weight: bold;
 	}
-	li {
-		list-style: none;
-	}
+	
 }
 
 ///footer///
