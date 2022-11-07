@@ -379,6 +379,11 @@ header .hero-text {
   color: #d5604c;
 }
 
+#portfolio a {
+  color: white;
+  text-decoration: none;
+}
+
 .carousel {
   display: none;
 }
@@ -569,6 +574,14 @@ header .hero-text {
   -webkit-text-fill-color: transparent;
   font-size: 1.6rem;
   font-weight: bold;
+}
+
+.gallery1 {
+  padding: 5em;
+}
+
+.gallery2comer {
+  padding: 5em;
 }
 
 footer .row {

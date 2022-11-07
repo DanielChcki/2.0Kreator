@@ -359,6 +359,15 @@ header {
 
 /////portfolio////
 ///
+///
+#portfolio {
+	
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	
+	}
 
 .carousel {
 	display: none;
@@ -566,6 +575,16 @@ header {
 		font-weight: bold;
 	}
 }
+// Galeria //
+
+
+.gallery1{ 
+padding: 5em;	
+}
+.gallery2comer{
+padding: 5em;
+}
+
 
 ///footer///
 ///
