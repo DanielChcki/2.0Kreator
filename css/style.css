@@ -187,7 +187,7 @@ header h1 {
 }
 header p {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   background: linear-gradient(to left, #fff, #19b1bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -214,7 +214,7 @@ header .hero-text {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
   z-index: 10;
 }
@@ -563,10 +563,16 @@ header .hero-text {
 }
 
 .faq {
-  padding: 5em;
+  padding-top: 5em;
+  width: 100%;
+  height: 100%;
 }
 .faq h2 {
   color: white;
+}
+.faq .accordion {
+  width: 100%;
+  height: 100%;
 }
 .faq .accordion-button {
   background: linear-gradient(to right, #a14636, rgb(32, 183, 196));
@@ -589,7 +595,7 @@ footer .row {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 5em;
+  padding: 2em;
 }
 footer span.logo-element {
   color: rgb(25, 177, 191);
