@@ -142,6 +142,7 @@ header {
 	h1 {
 		font-size: 3.5rem;
 		text-transform: uppercase;
+	
 		background: linear-gradient(to right, white, #19b1bf);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -177,8 +178,8 @@ header {
 		justify-content: center;
 		align-items: center;
 		height: 100%;
-		padding: 1em;
-		text-align: center;
+		padding: 0.8rem;
+		text-align: center;		
 		z-index: 10;
 	}
 }
@@ -570,9 +571,7 @@ header {
 		color: $white;
 	}
 	.accordion {
-	
-		width: 100%;
-		height: 100%;
+	padding: 0.8em;
 	}
 	.accordion-button {
 		background: linear-gradient(to right, $second-colordarker, $main-colorlighter);
@@ -582,13 +581,13 @@ header {
 		font-weight: bold;
 	}
 }
-// Galeria //
+// Galeria 1 i 2 //
 
 .gallery1 {
-	padding: 5em;
+	padding-top: 5em;
 }
 .gallery2comer {
-	padding: 5em;
+	padding-top: 5em;
 }
 
 ///footer///
