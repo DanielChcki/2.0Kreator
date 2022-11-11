@@ -181,6 +181,7 @@ header {
 header h1 {
   font-size: 3.5rem;
   text-transform: uppercase;
+  padding: 1rem;
   background: linear-gradient(to right, white, #19b1bf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

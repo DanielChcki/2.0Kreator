@@ -142,7 +142,8 @@ header {
 	h1 {
 		font-size: 3.5rem;
 		text-transform: uppercase;
-	
+		padding: 1rem;
+
 		background: linear-gradient(to right, white, #19b1bf);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -162,7 +163,7 @@ header {
 		background-image: linear-gradient(to top, #330867 0%, #30cfd0 100%);
 		background-position: center;
 		background-size: cover;
-		background-attachment:local;
+		background-attachment: local;
 		z-index: 0;
 	}
 	.hero-shadow {
@@ -179,7 +180,7 @@ header {
 		align-items: center;
 		height: 100%;
 		padding: 0.8rem;
-		text-align: center;		
+		text-align: center;
 		z-index: 10;
 	}
 }
@@ -571,7 +572,7 @@ header {
 		color: $white;
 	}
 	.accordion {
-	padding: 0.8em;
+		padding: 0.8em;
 	}
 	.accordion-button {
 		background: linear-gradient(to right, $second-colordarker, $main-colorlighter);
